@@ -1,4 +1,4 @@
-package pm.c7.bwb.mixin;
+package pm.c7.bwb.mixin.a_no_sprint;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
