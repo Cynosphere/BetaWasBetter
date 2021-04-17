@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "a_no_sprint.MixinEntity",
-    "a_no_sprint.MixinLivingEntity"
+    "a_no_sprint.MixinLivingEntity",
+    "b_no_hunger.MixinFoodComponent",
+    "b_no_hunger.MixinPlayerEntity"
   ],
   "client": [],
   "injectors": {

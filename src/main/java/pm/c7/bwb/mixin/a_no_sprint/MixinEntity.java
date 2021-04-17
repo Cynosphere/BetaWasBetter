@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class MixinEntity implements Nameable, CommandOutput {
     @Inject(method = "shouldSpawnSprintingParticles", at = @At("HEAD"), cancellable = true)
     private void noSprintParticles(CallbackInfoReturnable<Boolean> info) {
-        if ((Entity)(Object)this instanceof PlayerEntity) {
+        if ((Entity) (Object) this instanceof PlayerEntity) {
             info.setReturnValue(false);
         }
     }
