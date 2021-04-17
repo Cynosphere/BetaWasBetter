@@ -9,7 +9,9 @@
     "b_no_hunger.MixinFoodComponent",
     "b_no_hunger.MixinPlayerEntity"
   ],
-  "client": [],
+  "client": [
+    "c_old_hud.MixinInGameHud"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
