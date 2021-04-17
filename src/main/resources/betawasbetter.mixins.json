@@ -3,7 +3,10 @@
   "minVersion": "0.8",
   "package": "pm.c7.bwb.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "MixinEntity",
+    "MixinLivingEntity"
+  ],
   "client": [],
   "injectors": {
     "defaultRequire": 1
