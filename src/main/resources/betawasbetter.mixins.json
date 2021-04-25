@@ -6,8 +6,10 @@
   "mixins": [
     "a_no_sprint.MixinEntity",
     "a_no_sprint.MixinLivingEntity",
+    "b_no_hunger.MixinCakeBlock",
     "b_no_hunger.MixinFoodComponent",
-    "b_no_hunger.MixinPlayerEntity"
+    "b_no_hunger.MixinPlayerEntity",
+    "d_combat.MixinPlayerEntity"
   ],
   "client": [
     "c_old_hud.MixinInGameHud"
